@@ -38,14 +38,14 @@ const Sidebar = (props: Props) => {
         <ListItemIcon>
           <SendIcon />
         </ListItemIcon>
-        <ListItemText primary="Sent mail" />
+        <ListItemText primary="Dashboard" />
       </ListItemButton>
       <ListItemButton>
         <ListItemIcon>
           <DraftsIcon />
         </ListItemIcon>
         {/* <ListItemText primary="User" /> */}
-        <Link href="/admin/users">Users</Link>
+        <Link href="/admin/karyawan">Karyawan</Link>
       </ListItemButton>
       <ListItemButton onClick={handleClick}>
         <ListItemIcon>
@@ -60,13 +60,13 @@ const Sidebar = (props: Props) => {
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
-            <Link href="/admin/master-data/units">Unit</Link>
+            <Link href="/admin/master-data/unit">Unit</Link>
           </ListItemButton>
           <ListItemButton sx={{ pl: 4 }}>
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
-            <Link href="/admin/master-data/jabatans">Jabatan</Link>
+            <Link href="/admin/master-data/jabatan">Jabatan</Link>
           </ListItemButton>
         </List>
       </Collapse>

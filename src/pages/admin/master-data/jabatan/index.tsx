@@ -35,7 +35,7 @@ const fetcher = (...args):Promise<JabatansHttpResponse> => axios.get(...args)
   });
 
 
-const MasterDataUnitIndex: NextPageWithLayout = (props: Props) => {
+const MasterDataJabatanIndex: NextPageWithLayout = (props: Props) => {
   const theme = useTheme();
   const router = useRouter();
   const [openModal, setOpenModal] = useState(false);
@@ -106,6 +106,6 @@ const MasterDataUnitIndex: NextPageWithLayout = (props: Props) => {
   )
 }
 
-MasterDataUnitIndex.getLayout = (page) => <AdminLayout pageTitle='Jabatan'>{page}</AdminLayout>
+MasterDataJabatanIndex.getLayout = (page) => <AdminLayout pageTitle='Jabatan'>{page}</AdminLayout>
 
-export default MasterDataUnitIndex
+export default MasterDataJabatanIndex
