@@ -1,5 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Ini adalah project untuk keperluan interview. 
 
+## Setup
+1. Clone server app [Backend App](https://github.com/madedwi/interview-backend-simplehr)
+2. Copy file ```.env.local.example``` menjadi ```.env.local```
+3. Sesuaikan configurasi pada file ```.env.local```
+4. Jalankan Backend App
+5. Jalankan  perintah berikut unutk start development server : 
+```bash
+npm run dev
+```
+<br>
+<hr>
+<br>
+
+## NEXTJS README
+<br>
 ## Getting Started
 
 First, run the development server:
