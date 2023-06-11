@@ -66,7 +66,7 @@ const Sidebar = (props: Props) => {
             <ListItemIcon>
               <StarBorder />
             </ListItemIcon>
-            <Link href="/admin/product-management/products">Products</Link>
+            <Link href="/admin/master-data/jabatans">Jabatan</Link>
           </ListItemButton>
         </List>
       </Collapse>
