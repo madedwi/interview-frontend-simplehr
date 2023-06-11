@@ -38,7 +38,7 @@ const Sidebar = (props: Props) => {
         <ListItemIcon>
           <SendIcon />
         </ListItemIcon>
-        <ListItemText primary="Dashboard" />
+        <Link href="/admin">Dashboard</Link>
       </ListItemButton>
       <ListItemButton>
         <ListItemIcon>
