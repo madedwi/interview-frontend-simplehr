@@ -1,8 +1,8 @@
 import { Box, Collapse, List, ListItemButton, ListItemIcon, ListItemText, ListSubheader } from '@mui/material'
 import React from 'react'
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import DraftsIcon from '@mui/icons-material/Drafts';
-import SendIcon from '@mui/icons-material/Send';
+import PeopleIcon from '@mui/icons-material/People';
+import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
+import DashboardIcon from '@mui/icons-material/Dashboard';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
@@ -36,20 +36,20 @@ const Sidebar = (props: Props) => {
     >
       <ListItemButton>
         <ListItemIcon>
-          <SendIcon />
+          <DashboardIcon />
         </ListItemIcon>
         <Link href="/admin">Dashboard</Link>
       </ListItemButton>
       <ListItemButton>
         <ListItemIcon>
-          <DraftsIcon />
+          <PeopleIcon />
         </ListItemIcon>
         {/* <ListItemText primary="User" /> */}
         <Link href="/admin/karyawan">Karyawan</Link>
       </ListItemButton>
       <ListItemButton onClick={handleClick}>
         <ListItemIcon>
-          <InboxIcon />
+          <FolderSpecialIcon />
         </ListItemIcon>
         <ListItemText primary="Master Data" />
         {open ? <ExpandLess /> : <ExpandMore />}
